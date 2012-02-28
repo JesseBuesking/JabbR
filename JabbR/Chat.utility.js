@@ -8,8 +8,6 @@
     // getting the browser's name for use in isMobile
     var nav = navigator.userAgent || navigator.vendor || window.opera;
 
-    alert(nav);
-
     // checking to see if the current device is a mobile device 
     // and storing the result for repeated use
     var isMobile = /android.+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od|ad)|iris|kindle|lge |maemo|midp|mmp|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(nav) ||
